@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/manage_et_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关键字可以是：单位名称，硬盘号等信息\n查询结果包含所有状态的设备"/>
+
+    <Button
+        android:id="@+id/manage_btn_getStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询-Search" />
+
+
+    <ListView
+        android:id="@+id/manage_list_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp" />
+</LinearLayout>

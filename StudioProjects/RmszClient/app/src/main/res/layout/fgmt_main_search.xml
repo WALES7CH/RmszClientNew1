@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_tv_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/main_sp_citys"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择想要查询的市州\n查询结果只包含所有断线天数大于1的设备"/>
+
+    <Button
+        android:id="@+id/main_btn_getToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="get Token" />
+
+    <Button
+        android:id="@+id/main_btn_getStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询-Search" />
+
+
+    <ListView
+        android:id="@+id/main_list_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dip" />
+</LinearLayout>
